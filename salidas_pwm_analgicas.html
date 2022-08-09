@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Salidas PWM (analógicas) | Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduniblocks </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Pedro Ruiz Fernández" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-13"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduniblocks</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduniblocks</a></li>
+   <li><a href="elementos_y_tipos.html" class="no-ch">Elementos y tipos</a></li>
+   <li><a href="elemento_de_control.html" class="no-ch">Elemento de control</a></li>
+   <li><a href="arduinoblocks.html" class="no-ch">Arduinoblocks</a></li>
+   <li><a href="salidas_digitales_y_bucles.html" class="daddy">Salidas digitales y bucles</a>
+   <ul class="other-section">
+      <li><a href="reto_01_led_parpadeante.html" class="no-ch">Reto 01 Led parpadeante</a></li>
+      <li><a href="reto_02_dos_leds_parpadeantes_alternativos_variables.html" class="no-ch">Reto 02 Dos Leds parpadeantes alternativos (variables)</a></li>
+      <li><a href="reto_03_repeticiones_con_leds_parpadeantes.html" class="no-ch">Reto 03 repeticiones con leds parpadeantes</a></li>
+      <li><a href="reto_04_notas_musicales_zumbador.html" class="no-ch">Reto 04 Notas musicales (zumbador)</a></li>
+      <li><a href="reto_05_escala_con_zumbador.html" class="no-ch">Reto 05 Escala con zumbador</a></li>
+      <li><a href="reto_06_meloda_con_zumbador.html" class="no-ch">Reto 06 Melodía con zumbador</a></li>
+      <li><a href="reto_07_sos_con_zumbador.html" class="no-ch">Reto 07 SOS con zumbador</a></li>
+   </ul>
+   </li>
+   <li><a href="entradas_digitales_condicionales_y_comunicacin_serie.html" class="daddy">Entradas digitales, condicionales y comunicación serie.</a>
+   <ul class="other-section">
+      <li><a href="reto_08_encendido_de_led_con_pulsador_condicionales.html" class="no-ch">Reto 08 Encendido de led con pulsador (condicionales)</a></li>
+      <li><a href="reto_09_encendido_y_apagado_de_led_con_dos_pulsadores.html" class="no-ch">Reto 09 Encendido y apagado de led con dos pulsadores</a></li>
+      <li><a href="retos_10_ab_encendido_y_apagado_de_led_con_operadores_lgicos.html" class="no-ch">Retos 10 (a,b) Encendido y apagado de led con operadores lógicos</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="salidas_pwm_analgicas.html" class="active daddy">Salidas PWM (analógicas)</a>
+   <ul>
+      <li><a href="reto_11_encender_led_rgb.html" class="no-ch">Reto 11 Encender led RGB</a></li>
+      <li><a href="reto_12_intensidad_de_led_rgb_fade_in_fade_out.html" class="no-ch">Reto 12 Intensidad de led RGB (fade in fade out)</a></li>
+      <li><a href="reto_13_intensidad_de_led_rgb_con_pulsador.html" class="no-ch">Reto 13 Intensidad de led RGB con pulsador</a></li>
+      <li><a href="reto_14_color_aleatorio_con_led_rgb.html" class="no-ch">Reto 14 Color Aleatorio con Led RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="entradas_analgicas.html" class="daddy">Entradas analógicas</a>
+   <ul class="other-section">
+      <li><a href="reto_15_interruptor_crepuscular_por_umbral_comunicacin_serie.html" class="no-ch">Reto 15 Interruptor crepuscular por umbral. Comunicación serie.</a></li>
+      <li><a href="reto_16_interruptor_crepuscular_progresivo.html" class="no-ch">Reto 16 Interruptor crepuscular progresivo</a></li>
+      <li><a href="reto_17_control_de_leds_con_potencimetro.html" class="no-ch">Reto 17 Control de leds con potenciómetro</a></li>
+      <li><a href="reto_18_potencimetro_y_rgb.html" class="no-ch">Reto 18 Potenciómetro y RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="pantalla_lcd_lm35_y_dht11.html" class="daddy">Pantalla LCD, LM35 y DHT11</a>
+   <ul class="other-section">
+      <li><a href="reto_19_control_de_turno_pulsadores_y_lcd.html" class="no-ch">Reto 19 Control de turno (pulsadores y LCD)</a></li>
+      <li><a href="reto_20_scroll_de_texto.html" class="no-ch">Reto 20 Scroll de texto</a></li>
+      <li><a href="reto_21_temperatura_con_lm35.html" class="no-ch">Reto 21 Temperatura con LM35</a></li>
+      <li><a href="reto_22_temperatura_y_humedad_con_dht11_serial_plotter.html" class="no-ch">Reto 22 Temperatura y Humedad con DHT11. Serial Plotter.</a></li>
+      <li><a href="reto_23_temperatura_rgb_y_lcd.html" class="no-ch">Reto 23 Temperatura, RGB y LCD</a></li>
+   </ul>
+   </li>
+   <li><a href="otros_retos.html" class="daddy">Otros retos</a>
+   <ul class="other-section">
+      <li><a href="reto_24_conversacin_pcarduino.html" class="no-ch">Reto 24 Conversación PC-Arduino</a></li>
+      <li><a href="reto_25_encendido_led_a_travs_de_puerto_serie.html" class="no-ch">Reto 25. Encendido Led a través de puerto serie</a></li>
+      <li><a href="reto_26_multitarea.html" class="no-ch">Reto 26 Multitarea</a></li>
+   </ul>
+   </li>
+   <li><a href="fuentes.html" class="no-ch">Fuentes</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="retos_10_ab_encendido_y_apagado_de_led_con_operadores_lgicos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_11_encender_led_rgb.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Salidas PWM (analógicas)</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id38">
+<div class="iDevice emphasis0" >
+<div id="ta38_169_2" class="block iDevice_content">
+<div class="exe-text"><p>En arduino UNO tenemos una serie de pines digitales (3, 5, 6, 9, 10, y 11), que cuando se usan como salidas pueden tener modulación de ancho de pulso (PWM). La modulación de ancho de pulso, o<img src="Pwm_5steps.gif" alt="pwm" width="326" height="357" style="float: right; margin: 8px;" /> PWM, sirve para obtener resultados analógicos con medios digitales. Las salidas digitales se utilizan para crear una onda cuadrada, una señal que se activa y desactiva con una frecuencia en el tiempo. En función del porcentaje de tiempo que está señal está a HIGH (5V) frente a LOW (0V) obtendremos una tensión en la salida entre 0 y 5 Voltios. Este porcentaje de tiempo se da pasando un valor comprendido entre 0 (0% por ciento del tiempo encendido) y 255 (100% del tiempo encendido). En el gráfico de la derecha se muestra un ejemplo, si damos la orden <em>analogWrite (pin,0)</em> estaría el 0% del tiempo a 5V y por tanto estaría siempre apagado, en el segundo caso dando la orden <em>analogWrite (pin,64)</em> estaría el 25% del tiempo a 5V y por tanto mostraría la salida un valor de tensión media baja (5V/4), con la orden <em>analogWrite (pin,127)</em> estaría el 50% del tiempo a 5V y por tanto mostraría la salida un valor de tensión media (5V/2), y así hasta la orden <em>analogWrite (pin,255)</em> que estaría el 100% del tiempo a 5V.</p>
+<p><img src="arduino_uno_salidas_pwm.png" alt="arduino uno pwm" width="381" height="270" /></p>
+<p> En el Shield tenemos conectadas las siguientes salidas PWM:<img src="shield_clon.jpg" alt="shield" width="500" height="381" style="float: right;" /></p>
+<table border="1" style="width: 27.9684%; height: 56px;">
+<tbody>
+<tr style="height: 36px;">
+<td style="width: 4.84845%; height: 36px;"></td>
+<td style="width: 12.9292%; height: 36px; text-align: center;"><strong>Sensor/Actuador/Módulo</strong></td>
+<td style="width: 10.1906%; height: 36px; text-align: center;"><strong>Pin de conexión</strong></td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 4.84845%; height: 10px; text-align: center;">3</td>
+<td style="width: 12.9292%; height: 10px;">led RGB</td>
+<td style="width: 10.1906%; height: 10px; text-align: center;">D9-D10-D11</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 4.84845%; height: 10px; text-align: center;">6</td>
+<td style="width: 12.9292%; height: 10px;">Dos puertos (Entradas/Salidas) digitales</td>
+<td style="width: 10.1906%; height: 10px; text-align: center;">D7 y D8</td>
+</tr>
+</tbody>
+</table>
+<p></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="retos_10_ab_encendido_y_apagado_de_led_con_operadores_lgicos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_11_encender_led_rgb.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<footer id="siteFooter">Por: Pedro Ruiz Fernández</footer></div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Elemento de control | Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduniblocks </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Pedro Ruiz Fernández" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduniblocks</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduniblocks</a></li>
+   <li><a href="elementos_y_tipos.html" class="no-ch">Elementos y tipos</a></li>
+   <li id="active"><a href="elemento_de_control.html" class="active no-ch">Elemento de control</a></li>
+   <li><a href="arduinoblocks.html" class="no-ch">Arduinoblocks</a></li>
+   <li><a href="salidas_digitales_y_bucles.html" class="daddy">Salidas digitales y bucles</a>
+   <ul class="other-section">
+      <li><a href="reto_01_led_parpadeante.html" class="no-ch">Reto 01 Led parpadeante</a></li>
+      <li><a href="reto_02_dos_leds_parpadeantes_alternativos_variables.html" class="no-ch">Reto 02 Dos Leds parpadeantes alternativos (variables)</a></li>
+      <li><a href="reto_03_repeticiones_con_leds_parpadeantes.html" class="no-ch">Reto 03 repeticiones con leds parpadeantes</a></li>
+      <li><a href="reto_04_notas_musicales_zumbador.html" class="no-ch">Reto 04 Notas musicales (zumbador)</a></li>
+      <li><a href="reto_05_escala_con_zumbador.html" class="no-ch">Reto 05 Escala con zumbador</a></li>
+      <li><a href="reto_06_meloda_con_zumbador.html" class="no-ch">Reto 06 Melodía con zumbador</a></li>
+      <li><a href="reto_07_sos_con_zumbador.html" class="no-ch">Reto 07 SOS con zumbador</a></li>
+   </ul>
+   </li>
+   <li><a href="entradas_digitales_condicionales_y_comunicacin_serie.html" class="daddy">Entradas digitales, condicionales y comunicación serie.</a>
+   <ul class="other-section">
+      <li><a href="reto_08_encendido_de_led_con_pulsador_condicionales.html" class="no-ch">Reto 08 Encendido de led con pulsador (condicionales)</a></li>
+      <li><a href="reto_09_encendido_y_apagado_de_led_con_dos_pulsadores.html" class="no-ch">Reto 09 Encendido y apagado de led con dos pulsadores</a></li>
+      <li><a href="retos_10_ab_encendido_y_apagado_de_led_con_operadores_lgicos.html" class="no-ch">Retos 10 (a,b) Encendido y apagado de led con operadores lógicos</a></li>
+   </ul>
+   </li>
+   <li><a href="salidas_pwm_analgicas.html" class="daddy">Salidas PWM (analógicas)</a>
+   <ul class="other-section">
+      <li><a href="reto_11_encender_led_rgb.html" class="no-ch">Reto 11 Encender led RGB</a></li>
+      <li><a href="reto_12_intensidad_de_led_rgb_fade_in_fade_out.html" class="no-ch">Reto 12 Intensidad de led RGB (fade in fade out)</a></li>
+      <li><a href="reto_13_intensidad_de_led_rgb_con_pulsador.html" class="no-ch">Reto 13 Intensidad de led RGB con pulsador</a></li>
+      <li><a href="reto_14_color_aleatorio_con_led_rgb.html" class="no-ch">Reto 14 Color Aleatorio con Led RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="entradas_analgicas.html" class="daddy">Entradas analógicas</a>
+   <ul class="other-section">
+      <li><a href="reto_15_interruptor_crepuscular_por_umbral_comunicacin_serie.html" class="no-ch">Reto 15 Interruptor crepuscular por umbral. Comunicación serie.</a></li>
+      <li><a href="reto_16_interruptor_crepuscular_progresivo.html" class="no-ch">Reto 16 Interruptor crepuscular progresivo</a></li>
+      <li><a href="reto_17_control_de_leds_con_potencimetro.html" class="no-ch">Reto 17 Control de leds con potenciómetro</a></li>
+      <li><a href="reto_18_potencimetro_y_rgb.html" class="no-ch">Reto 18 Potenciómetro y RGB</a></li>
+   </ul>
+   </li>
+   <li><a href="pantalla_lcd_lm35_y_dht11.html" class="daddy">Pantalla LCD, LM35 y DHT11</a>
+   <ul class="other-section">
+      <li><a href="reto_19_control_de_turno_pulsadores_y_lcd.html" class="no-ch">Reto 19 Control de turno (pulsadores y LCD)</a></li>
+      <li><a href="reto_20_scroll_de_texto.html" class="no-ch">Reto 20 Scroll de texto</a></li>
+      <li><a href="reto_21_temperatura_con_lm35.html" class="no-ch">Reto 21 Temperatura con LM35</a></li>
+      <li><a href="reto_22_temperatura_y_humedad_con_dht11_serial_plotter.html" class="no-ch">Reto 22 Temperatura y Humedad con DHT11. Serial Plotter.</a></li>
+      <li><a href="reto_23_temperatura_rgb_y_lcd.html" class="no-ch">Reto 23 Temperatura, RGB y LCD</a></li>
+   </ul>
+   </li>
+   <li><a href="otros_retos.html" class="daddy">Otros retos</a>
+   <ul class="other-section">
+      <li><a href="reto_24_conversacin_pcarduino.html" class="no-ch">Reto 24 Conversación PC-Arduino</a></li>
+      <li><a href="reto_25_encendido_led_a_travs_de_puerto_serie.html" class="no-ch">Reto 25. Encendido Led a través de puerto serie</a></li>
+      <li><a href="reto_26_multitarea.html" class="no-ch">Reto 26 Multitarea</a></li>
+   </ul>
+   </li>
+   <li><a href="fuentes.html" class="no-ch">Fuentes</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="elementos_y_tipos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="arduinoblocks.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Elemento de control</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id6">
+<div class="iDevice emphasis0" >
+<div id="ta6_112_2" class="block iDevice_content">
+<div class="exe-text"><p>En nuestro caso como elemento de control vamos a utilizar una placa de control programable que se llama Arduino, la cual tiene un uso muy extendido por varias razones:<img src="arduino_uno.jpg" alt="arduino uno" style="float: right; margin-right: 2px; margin-left: 2px;" width="450" height="296" /></p>
+<ul>
+<li><span style="text-decoration: underline;">Hardware libre</span>: los diseñadores han puesto a disposición de todo el mundo los circuitos físicos de la placa para poder fabricarla y/o modificarla.</li>
+<li><span style="text-decoration: underline;">Software libre</span>: el software que controla la placa también está puesto a disposición de todo el mundo para compartirlo e incluso modificarlo.</li>
+<li><span style="text-decoration: underline;">Comunidad</span>: hay una gran cantidad personas compartiendo, proyectos, código y soluciones por internet. El soporte de proyectos, dispositivos e información es muy amplio.</li>
+<li><span style="text-decoration: underline;">Precio</span>: muy económico.</li>
+<li><span style="text-decoration: underline;">Simplicidad</span>: se pueden realizar soluciones de control y robóticca de una manera sencilla.</li>
+</ul></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id7">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Arduino. Características</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_113_2" class="block iDevice_content">
+<div class="exe-text"><p>Partes:<img src="partes_arduino.png" alt="Partes de Arduino" style="float: right; margin-right: 2px; margin-left: 2px;" width="415" height="388" /></p>
+<p><span style="text-decoration: underline;">Pines digitales (0 a 13, 5V 40mA) (6 Salidas PWM 8 bits)</span>: una señal es digital cuando sólo puede tomar dos valores (1 o 0, encendido o apagado, on off, etc). Sirven para conectar tanto salidas (actuadores) digitales (diodos led, motores, zumbadores, etc), como entradas (sensores) digitales (interruptores, pulsadores, finales de carrera, etc). Estos pines cuando se usan como salidas podemos decirles que estén conectados o no, que tengan voltaje (5V) o no (0V). Cuando se usan como entrada detectan cuando los elementos de entrada están cerrados o no. Cuando son de salida dan como máximo 5V y 40 mA.</p>
+<p><span style="text-decoration: underline;">Pines de alimentación o zona power</span>: tenemos los pines gnd (ground tierra), sirven para cerrar el circuito, son el polo negativo de nuestra alimentación. Tenemos un gnd en la fila de los pines digitales y dos gnd más en la zona de alimentación (power). Además tenemos pines de alimentacón de 5V, 3,3V, y Vin. Este último sirve para dar alimentación externa a Arduino.</p>
+<p><span style="text-decoration: underline;">Entradas analógicas (A0 a A5, 0-5V 10 bits)</span>: sirven para leer de sensores (entradas) datos que pueden tomar muchos valores y por tanto no son digitales, como temperaturas (con ntc), luz (con ldr), etc.</p>
+<p><span style="text-decoration: underline;">Microcontrolador (ATMEGA 328P, 8 bit, 16Mhz, 32KB flash, 1KB EEPROM, 2KB SRAM)</span>: es el dispositivo dónde se guarda el programa y hace que se ejecute, así como controla todos los elementos de la placa. Sólo tiene almacenado un programa en memoria que se sobreescribe cuando se le sube otro.</p>
+<p><span style="text-decoration: underline;">Usb</span>: es el puertor usb que sirve para dar alimentación a la placa y además comunicarse con el ordenador. A través de él subimos los programas a la placa.</p>
+<p><span style="text-decoration: underline;">Alimentación externa</span>: conector que sirve para alimentar arduino con un elemento externo y que no se alimente por el PC (cargador, pila de 9v, etc). Soporta de 7 a 12V.</p>
+<p><span style="text-decoration: underline;">Botón de reset</span>: cuando se pulsa reinicia el programa que tiene en memoria.</p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Shield HY-M302</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_113_2" class="block iDevice_content">
+<div class="exe-text"><p>La placa Shield se conecta a los pines de un Arduino Uno. Esta placa trae integrados una serie de sensores y actuadores que permiten aprender a programar un sistema de control Arduino, con un conexionado ya establecido y por tanto sencillo.</p>
+<p>Es importante conocer los elementos del Shield, así como los pines a los que están conectados (pinout) para poder configurar posteriormente nuestros programas. </p>
+<p><img src="shield_clon.jpg" alt="shield" width="500" height="381" style="float: right;" /></p>
+<table style="width: 36.8555%; height: 271px;" border="1">
+<tbody>
+<tr style="height: 43px;">
+<td style="width: 2.60417%; height: 43px;"></td>
+<td style="width: 27.7295%; text-align: center; height: 43px;"><strong>Sensor/Actuador/Módulo</strong></td>
+<td style="width: 21.931%; height: 43px; text-align: center;"><strong>Pin de conexión</strong></td>
+</tr>
+<tr style="height: 43px;">
+<td style="width: 2.60417%; height: 43px;">1</td>
+<td style="width: 27.7295%; height: 43px;">Dos pulsadores (SW1,SW2)</td>
+<td style="width: 21.931%; height: 43px; text-align: center;">D2, D3</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 2.60417%; height: 10px;">2</td>
+<td style="width: 27.7295%; height: 10px;">Dos leds (Azul y Rojo)</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">D13, D12</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 2.60417%; height: 10px;">3</td>
+<td style="width: 27.7295%; height: 10px;">led RGB</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">D9-D10-D11</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 2.60417%; height: 10px;">4</td>
+<td style="width: 27.7295%; height: 10px;">Módulo DHT11 Sensor de temperatura y humedad</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">D4</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 2.60417%; height: 10px;">5</td>
+<td style="width: 27.7295%; height: 10px;">Zumbador o Piezo eléctrico</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">D5</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 2.60417%; height: 10px;">6</td>
+<td style="width: 27.7295%; height: 10px;">Dos puertos (Entradas/Salidas) digitales</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">D7 y D8</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 2.60417%; height: 10px;">7</td>
+<td style="width: 27.7295%; height: 10px;">Módulo receptor de infrarrojos (IR)</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">D6</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 2.60417%; height: 10px;">8</td>
+<td style="width: 27.7295%; height: 10px;">Módulo potenciómetro giratorio</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">A0</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 2.60417%; height: 10px;">9</td>
+<td style="width: 27.7295%; height: 10px;">Sensor de luminosidad (LDR)</td>
+<td style="width: 21.931%; height: 10px; text-align: center;">A1</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 2.60417%; height: 21px;">10</td>
+<td style="width: 27.7295%; height: 21px;">Sensor de temperatura (LM 35)</td>
+<td style="width: 21.931%; height: 21px; text-align: center;">A2</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 2.60417%; height: 21px;">11</td>
+<td style="width: 27.7295%; height: 21px;">Interface I2C compatible con sensores y módulos Keyestudio</td>
+<td style="width: 21.931%; height: 21px; text-align: center;">
+<p>SDA-A4</p>
+<p>SCL-A5</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 2.60417%; height: 21px;">12</td>
+<td style="width: 27.7295%; height: 21px;">Puerto entrada analógico</td>
+<td style="width: 21.931%; height: 21px; text-align: center;">A3</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 2.60417%; height: 21px;">13</td>
+<td style="width: 27.7295%; height: 21px;">Conexión de comunicaciones Bluetooth y Wifi (Switch On/Off)</td>
+<td style="width: 21.931%; height: 21px; text-align: center;">Rx-Tx</td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 2.60417%; height: 21px;">14</td>
+<td style="width: 27.7295%; height: 21px;">Botón de reinicio</td>
+<td style="width: 21.931%; text-align: center; height: 21px;">-</td>
+</tr>
+</tbody>
+</table>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="elementos_y_tipos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="arduinoblocks.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<footer id="siteFooter">Por: Pedro Ruiz Fernández</footer></div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
