@@ -94,7 +94,7 @@
    <instance class="exe.engine.node.Node" reference="4">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduniblocks"></unicode>
+     <unicode value="Sistemas de control automáticos programados con Arduino + Shield HY-M302 + Arduinoblocks"></unicode>
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
@@ -344,7 +344,7 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks"></string>
+     <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -898,7 +898,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Elementos%20y%20tipos"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Elementos%20y%20tipos"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1565,7 +1565,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Elemento%20de%20control"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Elemento%20de%20control"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1773,7 +1773,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Arduinoblocks"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Arduinoblocks"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2071,7 +2071,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2458,7 +2458,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles:Reto%2001%20Led%20parpadeante"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles:Reto%2001%20Led%20parpadeante"></string>
            <string role="key" value="parent"></string>
            <reference key="33"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3034,7 +3034,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles:Reto%2002%20Dos%20Leds%20parpadeantes%20alternativos.%20Variables"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles:Reto%2002%20Dos%20Leds%20parpadeantes%20alternativos.%20Variables"></string>
            <string role="key" value="parent"></string>
            <reference key="33"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3423,7 +3423,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles:Reto%2003%20Repeticiones%20con%20leds%20parpadeantes"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles:Reto%2003%20Repeticiones%20con%20leds%20parpadeantes"></string>
            <string role="key" value="parent"></string>
            <reference key="33"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3993,7 +3993,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles:Reto%2004%20Notas%20musicales%20%28zumbador%29"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles:Reto%2004%20Notas%20musicales%20%28zumbador%29"></string>
            <string role="key" value="parent"></string>
            <reference key="33"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4381,7 +4381,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles:Reto%2005%20Escala%20con%20zumbador"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles:Reto%2005%20Escala%20con%20zumbador"></string>
            <string role="key" value="parent"></string>
            <reference key="33"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4769,7 +4769,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles:Reto%2006%20Melod%C3%ADa%20con%20zumbador"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles:Reto%2006%20Melod%C3%ADa%20con%20zumbador"></string>
            <string role="key" value="parent"></string>
            <reference key="33"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -5341,7 +5341,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20digitales%20y%20bucles:Reto%2007%20SOS%20con%20zumbador"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20digitales%20y%20bucles:Reto%2007%20SOS%20con%20zumbador"></string>
            <string role="key" value="parent"></string>
            <reference key="33"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -5631,7 +5631,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20digitales.%20Condicionales"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20digitales.%20Condicionales"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -6315,7 +6315,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20digitales.%20Condicionales:Reto%2008%20Encendido%20de%20led%20con%20pulsador.%20Condicionales"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20digitales.%20Condicionales:Reto%2008%20Encendido%20de%20led%20con%20pulsador.%20Condicionales"></string>
            <string role="key" value="parent"></string>
            <reference key="102"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -6703,7 +6703,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20digitales.%20Condicionales:Reto%2009%20Encendido%20y%20apagado%20de%20led%20con%20dos%20pulsadores"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20digitales.%20Condicionales:Reto%2009%20Encendido%20y%20apagado%20de%20led%20con%20dos%20pulsadores"></string>
            <string role="key" value="parent"></string>
            <reference key="102"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -7337,7 +7337,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20digitales.%20Condicionales:Retos%2010%20%28a%2Cb%29%20Encendido%20y%20apagado%20de%20led%20con%20operadores%20l%C3%B3gicos"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20digitales.%20Condicionales:Retos%2010%20%28a%2Cb%29%20Encendido%20y%20apagado%20de%20led%20con%20operadores%20l%C3%B3gicos"></string>
            <string role="key" value="parent"></string>
            <reference key="102"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -7675,7 +7675,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -8469,7 +8469,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2011%20Encender%20led%20RGB"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2011%20Encender%20led%20RGB"></string>
            <string role="key" value="parent"></string>
            <reference key="142"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -8857,7 +8857,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2012%20Intensidad%20de%20led%20RGB%20%28fade%20in%2C%20fade%20out%29"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2012%20Intensidad%20de%20led%20RGB%20%28fade%20in%2C%20fade%20out%29"></string>
            <string role="key" value="parent"></string>
            <reference key="142"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -9246,7 +9246,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2013%20Intensidad%20de%20led%20RGB%20con%20pulsador"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2013%20Intensidad%20de%20led%20RGB%20con%20pulsador"></string>
            <string role="key" value="parent"></string>
            <reference key="142"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -9931,7 +9931,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2014%20Color%20aleatorio%20con%20led%20RGB"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Salidas%20PWM%20%28anal%C3%B3gicas%29:Reto%2014%20Color%20aleatorio%20con%20led%20RGB"></string>
            <string role="key" value="parent"></string>
            <reference key="142"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -10180,7 +10180,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -10859,7 +10859,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2015%20Interruptor%20crepuscular%20por%20umbral.%20Comunicaci%C3%B3n%20serie"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2015%20Interruptor%20crepuscular%20por%20umbral.%20Comunicaci%C3%B3n%20serie"></string>
            <string role="key" value="parent"></string>
            <reference key="195"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -11250,7 +11250,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2016%20Interruptor%20crepuscular%20progresivo"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2016%20Interruptor%20crepuscular%20progresivo"></string>
            <string role="key" value="parent"></string>
            <reference key="195"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -11639,7 +11639,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2017%20Control%20de%20leds%20con%20potenci%C3%B3metro"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2017%20Control%20de%20leds%20con%20potenci%C3%B3metro"></string>
            <string role="key" value="parent"></string>
            <reference key="195"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -12030,7 +12030,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2018%20Potenci%C3%B3metro%20y%20led%20RGB"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Entradas%20anal%C3%B3gicas.%20Comunicaci%C3%B3n%20serie:Reto%2018%20Potenci%C3%B3metro%20y%20led%20RGB"></string>
            <string role="key" value="parent"></string>
            <reference key="195"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -12186,7 +12186,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -12865,7 +12865,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2019%20Control%20de%20turno.%20Pulsadores%20y%20LCD"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2019%20Control%20de%20turno.%20Pulsadores%20y%20LCD"></string>
            <string role="key" value="parent"></string>
            <reference key="236"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -13254,7 +13254,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2020%20Scroll%20de%20texto"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2020%20Scroll%20de%20texto"></string>
            <string role="key" value="parent"></string>
            <reference key="236"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -13881,7 +13881,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2021%20Temperatura%20con%20LM35"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2021%20Temperatura%20con%20LM35"></string>
            <string role="key" value="parent"></string>
            <reference key="236"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -14511,7 +14511,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2022%20Temperatura%20y%20humedad%20con%20DHT11.%20Serial%20Plotter"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2022%20Temperatura%20y%20humedad%20con%20DHT11.%20Serial%20Plotter"></string>
            <string role="key" value="parent"></string>
            <reference key="236"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -14903,7 +14903,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2023%20Temperatura%2C%20led%20RGB%20y%20LCD"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Pantalla%20LCD%2C%20LM35%20y%20DHT11:Reto%2023%20Temperatura%2C%20led%20RGB%20y%20LCD"></string>
            <string role="key" value="parent"></string>
            <reference key="236"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -15063,7 +15063,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Otros%20retos"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Otros%20retos"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -15576,7 +15576,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Otros%20retos:Reto%2024%20Conversaci%C3%B3n%20PC-Arduino"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Otros%20retos:Reto%2024%20Conversaci%C3%B3n%20PC-Arduino"></string>
            <string role="key" value="parent"></string>
            <reference key="292"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -15967,7 +15967,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Otros%20retos:Reto%2025.%20Encendido%20Led%20a%20trav%C3%A9s%20de%20puerto%20serie"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Otros%20retos:Reto%2025.%20Encendido%20Led%20a%20trav%C3%A9s%20de%20puerto%20serie"></string>
            <string role="key" value="parent"></string>
            <reference key="292"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -16538,7 +16538,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Otros%20retos:Reto%2026%20Multitarea"></string>
+           <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Otros%20retos:Reto%2026%20Multitarea"></string>
            <string role="key" value="parent"></string>
            <reference key="292"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -16698,7 +16698,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduniblocks:Fuentes"></string>
+        <string value="exe-node:Sistemas%20de%20control%20autom%C3%A1ticos%20programados%20con%20Arduino%20%2B%20Shield%20HY-M302%20%2B%20Arduinoblocks:Fuentes"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
